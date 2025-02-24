@@ -1,0 +1,26 @@
+{
+  "sentences": [
+    "I saw a butterfly flying in the garden.",
+    "There is a cat on the sofa.",
+    "A chicken crossed the road.",
+    "Look at that cow grazing in the field.",
+    "My dog loves to play with a ball.",
+    "An elephant is taking a bath.",
+    "The horse is running fast.",
+    "There is a sheep near the barn.",
+    "A spider is crawling on the wall.",
+    "The squirrel is eating nuts."
+  ],
+  "labels": [
+    ["O", "O", "O", "B-ANIMAL", "O", "O", "O", "O"],
+    ["O", "O", "O", "B-ANIMAL", "O", "O", "O"],
+    ["O", "B-ANIMAL", "O", "O", "O", "O"],
+    ["O", "O", "O", "B-ANIMAL", "O", "O", "O", "O", "O"],
+    ["O", "B-ANIMAL", "O", "O", "O", "O", "O", "O"],
+    ["O", "B-ANIMAL", "O", "O", "O", "O", "O"],
+    ["O", "O", "O", "B-ANIMAL", "O", "O", "O"],
+    ["O", "O", "O", "B-ANIMAL", "O", "O", "O"],
+    ["O", "B-ANIMAL", "O", "O", "O", "O", "O"],
+    ["O", "B-ANIMAL", "O", "O", "O", "O", "O"]
+  ]
+}

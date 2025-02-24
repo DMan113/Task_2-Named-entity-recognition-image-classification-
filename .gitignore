@@ -1,0 +1,4 @@
+data/processed/train/
+data/processed/test/
+
+models/
