@@ -6,7 +6,7 @@ import torch.nn as nn
 
 
 class AnimalClassificationPipeline:
-    def __init__(self, ner_model_path="models/ner_model", image_model_path="models/image_classifier.pth"):
+    def __init__(self, ner_model_path="models/ner_model", image_model_path="image_classifier.pth"):
         """
         Initialize the Animal Classification Pipeline.
 

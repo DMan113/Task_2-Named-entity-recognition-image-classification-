@@ -8,6 +8,7 @@ This project implements Named Entity Recognition (NER) and image classification 
 - [Usage](#usage)
   - [NER Model](#ner-model)
   - [Image Classification Model](#image-classification-model)
+  - [Pipeline](#pipeline)
 - [Models](#models)
 - [Dataset](#dataset)
 - [Contributing](#contributing)
@@ -17,7 +18,7 @@ This project implements Named Entity Recognition (NER) and image classification 
 To set up the project, clone the repository and install the required packages:
 
 ```bash
-git clone https://github.com/DMan113/Task_2-Named-entity-recognition-image-classification-.git
+git clone https://github.com/yourusername/ner-image-classification.git
 cd ner-image-classification
 pip install -r requirements.txt
 ```
@@ -49,6 +50,13 @@ To perform inference on an image:
 python inference_image_classifier.py path/to/image.jpg
 ```
 
+### Pipeline
+To run the entire pipeline integrating both models:
+
+```bash
+python pipeline.py
+```
+
 ## Models
 - **NER Model**: Utilizes BERT for token classification to identify entities in text.
 - **Image Classification Model**: Implements a Convolutional Neural Network (CNN) to classify images into categories.
@@ -56,6 +64,7 @@ python inference_image_classifier.py path/to/image.jpg
 ## Dataset
 - **NER Dataset**: A JSON file containing sentences and their corresponding entity labels.
 - **Image Dataset**: A structured collection of images categorized into different classes (e.g., animals, objects, etc.).
+- The image dataset can be downloaded from Kaggle: [Animals Image Dataset](https://www.kaggle.com/datasets/your-dataset-link)
 
 ## Contributing
 Contributions are welcome! Please submit a pull request or open an issue for any suggestions or improvements.
